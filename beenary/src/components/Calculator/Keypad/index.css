@@ -1,0 +1,10 @@
+.calculator-keypad {
+  height: 400px;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.btn {
+  width: 80px;
+  height: 80px;
+}
