@@ -1,9 +1,17 @@
+import { useState } from 'react';
 import Calculator from './components/Calculator';
 
 function App() {
+  const [darkMode, setDarkMode] = useState(false)
+  const setMode = () => {
+    setDarkMode(!darkMode)
+  }
 
   return (
-    <Calculator />
+    <>
+      <button onClick={setMode}>dark mode</button>
+      { darkMode ? <Calculator /> : <div>dark mode off</div>}
+    </>
   );
 }
 

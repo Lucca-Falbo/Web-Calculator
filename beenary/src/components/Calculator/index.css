@@ -1,7 +1,18 @@
 .Frame {
   display: flex;
-  width: 320px;
-  height: 520px;
-  margin: 0 auto;
-  flex-direction: column;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  align-content: center;
+
+  position: absolute;
+  width: 436px;
+  height: 638px;
+  left: 200px;
+  top: 150px;
+
+  background: #FEFEFE;
+  box-sizing: border-box;
+  box-shadow: 10px 0px 15px rgba(46, 37, 40, 0.15), 0px 6px 4px rgba(46, 37, 40, 0.05);
+  border-radius: 16px;
+  border: 1px solid #2E2528;
 }
