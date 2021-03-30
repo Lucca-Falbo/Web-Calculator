@@ -1,0 +1,21 @@
+.calculator-keypad {
+  display: flex;
+  flex-flow: row wrap;
+  width: 330px;
+  height: 328px;
+  margin-top: 58px;
+
+}
+
+.btn {
+  width: 82px;
+  height: 82px;
+
+  font-family: 'Press Start 2P';
+  background: #F5CC5A;
+  border: 1px solid #575965;
+  border-radius: 8px;
+
+  font-size: 24px;
+  color: #575965;
+}
