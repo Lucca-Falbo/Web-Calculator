@@ -1,0 +1,7 @@
+.Frame {
+  display: flex;
+  width: 320px;
+  height: 520px;
+  margin: 0 auto;
+  flex-direction: column;
+}
